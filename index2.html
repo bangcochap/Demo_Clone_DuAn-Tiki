@@ -1,0 +1,2439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết Bị Số - Phụ Kiện Số</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets2/css/base.css">
+    <!-- <link rel="stylesheet" href="./assets2/fonts/"> -->
+    <link rel="stylesheet" href="./assets2/fonts/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets3/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets3/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets3/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets3/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets3/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets3/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets3/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets3/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets3/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets3/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets3/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets3/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets3/img/favicon-16x16.png">
+    <link rel="manifest" href="./assets3/img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./assets2/css/main.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Sàn thương mại điện tử Tiki
+                            <!-- header QR Code -->
+                            <div class="header__qr">
+                                <img src="./assets2/img/qrcode.png" alt="QA code" class="header__qr-img" width="140px" height="140px">
+                                <div class="header__qr-app">
+                                    <a href="https://apps.apple.com/vn/app/id958100553" class="header__qr-link">
+                                        <img src="./assets2/img/app_store.png" alt="Cài đặt Tiki qua App Store" class="header__qr-download-img" > 
+                                        <!-- width="70px" height="25px" -->
+                                    </a>
+                                    <a href="https://play.google.com/store/apps/details?id=vn.tiki.app.tikiandroid&pli=1" class="header__qr-link">
+                                        <img src="./assets2/img/google_play.png" alt="Cài đặt Tiki qua Google Play" class="header__qr-download-img" > 
+                                        <!-- width="70px" height="25px" -->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="https://www.facebook.com/tiki.vn" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/Tiki/" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="#!" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a> 
+                            <!-- tạo bảng thông báo -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>
+                                        Thông báo mới nhận
+                                    </h3>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="#!" class="header__notify-link">
+                                                <img src="./assets2/img/kem-duong-trang-da-ohui-50ml-1-2048x2048.png" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">
+                                                        Mỹ phẩm chính hãng
+                                                    </span>
+                                                    <span class="header__notify-descriotion">
+                                                        Mô tả của mỹ phẩm chính hãng
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="#!" class="header__notify-link">
+                                                <img src="./assets2/img/kem-duong-trang-da-ohui-50ml-1-2048x2048.png" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">
+                                                        Mỹ phẩm chính hãng
+                                                    </span>
+                                                    <span class="header__notify-descriotion">
+                                                        Mô tả của mỹ phẩm chính hãng
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="#!" class="header__notify-link">
+                                                <img src="./assets2/img/kem-duong-trang-da-ohui-50ml-1-2048x2048.png" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">
+                                                        Mỹ phẩm chính hãng
+                                                    </span>
+                                                    <span class="header__notify-descriotion">
+                                                        Mô tả của mỹ phẩm chính hãng
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <footer class="header__notify-footer">
+                                            <a href="#!" class="header__notify-footer-btn">
+                                                Xem tất cả
+                                            </a>
+                                        </footer>
+                                    </ul>
+                                </header>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#!" class="header__navbar-item-link" onclick="Thongbao()">
+                                <i class="header__navbar-icon fa-sharp fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a> 
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                            <a href="#my-dialog" class="header__navbar-item-link">
+                                Đăng kí
+                            </a>
+                            <!-- Modal layout -->
+                            <div class="modal" id = "my-dialog">
+                                <div class="modal__overlay"></div>
+                                <div class="modal__body">
+                                    <button class="btn-close">
+                                        <a href="#"><img src="https://salt.tikicdn.com/ts/upload/fe/20/d7/6d7764292a847adcffa7251141eb4730.png" alt="" width="42px" height="42px"></a>
+                                    </button>
+                                    <div class="grid2">
+                                        <div class="grid__row2">
+                                            <div class="grid__column-70">
+                                                <div class="auth-form">
+                                                    <div class="auth-form__header">
+                                                        <h4 class="auth-form__heading">Xin chào</h4>
+                                                        <p>Đăng nhập hoặc Tạo tài khoản</p>
+                                                    </div>
+                                
+                                                    <div class="auth-form__form">
+                                                        <div class="auth-form__group">
+                                                            <input type="tel" name="tel" placeholder="Số điện thoại" maxlength="10" value="" class="auth-form-input">                           
+                                                        </div>
+                                                        <div class="auth-form__group" onclick="Thongbao()">
+                                                            <button>Tiếp Tục</button>
+                                                        </div>
+                                                    </div>
+                                                    <p onclick="Thongbao()">Đăng nhập bằng Email</p>
+                                
+                                                    <div class="auth-form__aside">
+                                                        <p class="auth-form__policy-text">
+                                                            <span>Hoặc tiếp tục bằng</span>
+                                                        </p>
+                                                        <ul class="auth-form__list-link" onclick="Thongbao()">
+                                                            <li>
+                                                                <img src="./assets3/img/facebook.png" alt="" width="58px">
+                                                            </li>
+                                                            <li>
+                                                                <img src="https://salt.tikicdn.com/ts/upload/1c/ac/e8/141c68302262747f5988df2aae7eb161.png" alt="" width="58px">
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="auth-form__note">
+                                                        <p class="not">
+                                                            Bằng việc tiếp tục, bạn đã chấp nhận
+                                                            <a href="https://tiki.my.site.com/s/article/dieu-khoan-su-dung">điều khoản sử dụng</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="grid__column-30">
+                                                <div class="auth-form-img">
+                                                    <img src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" alt="" width="200px">
+                                                    <div class="content">
+                                                        <h4>Mua sắm tại Tiki</h4>
+                                                        <span>Siêu ưu đại mỗi ngày</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                      
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <a href="#my-dialog" class="header__navbar-item-link #">
+                                Đăng nhập
+                            </a>
+                            <!-- Modal layout -->
+                            <div class="modal" id = "my-dialog">
+                                <div class="modal__overlay"></div>
+                                <div class="modal__body">
+                                    <button class="btn-close">
+                                        <a href="#"><img src="https://salt.tikicdn.com/ts/upload/fe/20/d7/6d7764292a847adcffa7251141eb4730.png" alt="" width="42px" height="42px"></a>
+                                    </button>
+                                    <div class="grid2">
+                                        <div class="grid__row2">
+                                            <div class="grid__column-70">
+                                                <div class="auth-form">
+                                                    <div class="auth-form__header">
+                                                        <h4 class="auth-form__heading">Xin chào</h4>
+                                                        <p>Đăng nhập hoặc Tạo tài khoản</p>
+                                                    </div>
+                                
+                                                    <div class="auth-form__form" >
+                                                        <div class="auth-form__group">
+                                                            <input type="tel" name="tel" placeholder="Số điện thoại" maxlength="10" value="" class="auth-form-input">                           
+                                                        </div>
+                                                        <div class="auth-form__group">
+                                                            <button>Tiếp Tục</button>
+                                                        </div>
+                                                    </div>
+                                                    <p onclick="Thongbao()">Đăng nhập bằng Email</p>
+                                
+                                                    <div class="auth-form__aside">
+                                                        <p class="auth-form__policy-text">
+                                                            <span>Hoặc tiếp tục bằng</span>
+                                                        </p>
+                                                        <ul class="auth-form__list-link" onclick="Thongbao()">
+                                                            <li>
+                                                                <img src="./assets3/img/facebook.png" alt="" width="58px">
+                                                            </li>
+                                                            <li>
+                                                                <img src="https://salt.tikicdn.com/ts/upload/1c/ac/e8/141c68302262747f5988df2aae7eb161.png" alt="" width="58px">
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="auth-form__note">
+                                                        <p class="not">
+                                                            Bằng việc tiếp tục, bạn đã chấp nhận
+                                                            <a href="https://tiki.my.site.com/s/article/dieu-khoan-su-dung">điều khoản sử dụng</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="grid__column-30">
+                                                <div class="auth-form-img">
+                                                    <img src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" alt="" width="200px">
+                                                    <div class="content">
+                                                        <h4>Mua sắm tại Tiki</h4>
+                                                        <span>Siêu ưu đại mỗi ngày</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search  -->
+                <div class="header__with-search">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="./assets2/img/2228f38cf84d1b8451bb49e2c4537081.png" alt="" class="header__logo-img"></a>
+
+                    </div>
+                    <div class="header__search" onclick="Thongbao()">
+                        <input type="text" class="header__search-input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                        <div class="header__search--select">
+                            <span class="header__search--select-lable">Trong shop</span>
+                            <i class="header__search--select-icon fa-solid fa-chevron-down"></i>
+                        </div>
+                        <button class="header__search-btn">
+                            <!-- <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i> -->
+                            <img src="https://salt.tikicdn.com/ts/upload/ed/5e/b8/8538366274240326978318348ea8af7c.png" alt="" class="header__search-btn-icon">
+                        </button>
+                        
+                    </div>
+                    <div class="header__cart" onclick="Thongbao()">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- container -->
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-12">
+                        <nav class="menu__list-top">
+                            <span><a href="./index.html">Trang chủ</a> </span>
+                            <img src="./assets2/img/left-arrow.png" alt="" width="15px" height="15px">
+                            <span><a href="./index2.html">Thiết Bị Số - Phụ Kiện Số</a></span>
+                        </nav>
+                    </div>
+                    <div class="grid__column-2">
+                        <div class="container__listletf">
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Danh Mục Sản Phẩm</h4>
+                                <ul class="container__item">
+                                    <li class="container__item-listname">
+                                        <a href="#!" class="container__item-listname-link" onclick="Thongbao()">
+                                            Thiết Bị Âm Thanh Phụ Kiện
+                                        </a>
+                                    </li>
+                                    <li class="container__item-listname">
+                                        <a href="#!" class="container__item-listname-link" onclick="Thongbao()">
+                                            Thiết Bị Chơi Game Và Phụ Kiện
+                                        </a>
+                                    </li>
+                                    <li class="container__item-listname">
+                                        <a href="#!" class="container__item-listname-link" onclick="Thongbao()">
+                                            Thiết Bị Đeo Thông Minh Và Phụ Kiện
+                                        </a>
+                                    </li>
+                                    <li class="container__item-listname">
+                                        <a href="#!" class="container__item-listname-link" onclick="Thongbao()">
+                                            Thiết Bị Thông Minh Và Linh Kiện Điện Tử
+                                        </a>
+                                    </li>
+                                    <li class="container__item-listname">
+                                        <a href="#!" class="container__item-listname-link" onclick="Thongbao()">
+                                            Phụ Kiện Điện Thoại Và Máy Tính Bảng
+                                        </a>
+                                    </li>
+                                    <li class="container__item-listname">
+                                        <a href="#!" class="container__item-listname-link" onclick="Thongbao()">
+                                            Phụ Kiện Máy Tính Và Laptop
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                            <!-- listleft-two -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Địa chỉ nhận hàng</h4>
+                                <p>226/47 Nguyễn Văn Lượng, phường 17, quận Gò Vấp, tp.HCM</p>
+                                <a href="#!" id="container__listleft-link" onclick="Thongbao()">Đổi địa chỉ</a>
+                            </div>
+    
+                            <!-- listleft-three -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Dịch Vụ</h4>
+                                <div class="container__item-three" onclick="Thongbao()">
+                                    <span class="container__item-three-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-three-list">
+                                        <img class="filter-icon" width="28" height="10" src="https://salt.tikicdn.com/ts/upload/b3/21/cf/c6525bcd44b3bb1b793277cc98487799.png">
+                                        <span>Giao Siêu Tốc 2h</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-three" onclick="Thongbao()">
+                                    <span class="container__item-three-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-three-list">
+                                        <img class="filter-icon" width="65" height="10" src="https://salt.tikicdn.com/ts/upload/e9/14/26/52318ad1543ad9d3ee5b633b3df0750d.png">
+                                        <span>Thưởng Thêm Astra</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-three" onclick="Thongbao()">
+                                    <span class="container__item-three-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-three-list">
+                                        <img class="filter-icon" width="68" height="10" src="https://salt.tikicdn.com/ts/upload/ec/86/62/a28152ea23fd7d723d968579f3970280.png">
+                                        <span>Không Giới Hạn</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-three" onclick="Thongbao()">
+                                    <span class="container__item-three-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-three-list">
+                                        <span>Trả góp 0%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 4 -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Nơi bán</h4>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Hồ Chí Minh</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Hà Nội</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Đà Nẵng</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Hải Phòng</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Vĩnh Phúc</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Vũng Tàu</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <a href="#!" class="container__item-four-link">
+                                        <span class="container__item-four-text">
+                                            Xem thêm
+                                        </span>
+                                        <div class="container__item-four-list">
+                                            <i class="header__search--select-icon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Nơi bán</h4>
+                                <div class="container__item-five" onclick="Thongbao()">
+                                    <span class="container__item-five-box">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                    </span>
+                                    <div class="container__item-five-list">
+                                        <span>từ 5 sao</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-five" onclick="Thongbao()">
+                                    <span class="container__item-five-box">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star1.png" alt="" height="12px" width="12px">
+                                    </span>
+                                    <div class="container__item-five-list">
+                                        <span>từ 4 sao</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-five" onclick="Thongbao()">
+                                    <span class="container__item-five-box">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star1.png" alt="" height="12px" width="12px">
+                                        <img src="./assets2/img/star1.png" alt="" height="12px" width="12px">
+                                    </span>
+                                    <div class="container__item-five-list">
+                                        <span>từ 3 sao</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 6 -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Giá</h4>
+                                <div class="container__item-six" onclick="Thongbao()">
+                                    <div class="container__item-six-box">
+                                        <div class="container__item-six-box-text">
+                                            <span>
+                                                Dưới 500.000
+                                            </span>
+                                        </div>
+                                        <div class="container__item-six-box-text">
+                                            <span>
+                                                50.000 -> 80.000
+                                            </span>
+                                        </div>
+                                        <div class="container__item-six-box-text">
+                                            <span>
+                                                80.000 -> 230.000
+                                            </span>
+                                        </div>
+                                        <div class="container__item-six-box-text">
+                                            <span>
+                                                Trên 230.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span id="gia">
+                                            Chọn khoảng giá
+                                        </span>
+                                    </div>
+                                    <div class="container__item-six-list">
+                                        <input pattern="[0-9]*" placeholder="Giá từ" value="0">
+                                        <span>-</span>
+                                        <input pattern="[0-9]*" placeholder="Giá từ" value="0">
+                                    </div>
+                                </div>
+                                <button>Áp dụng</button>
+                            </div>
+                            <!-- 7 -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Thương hiệu</h4>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>OLSG</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>NETTACASE</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Mobifone</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>ICASE</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Viettel</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>FPT</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <a href="#!" class="container__item-four-link">
+                                        <span class="container__item-four-text">
+                                            Xem thêm
+                                        </span>
+                                        <div class="container__item-four-list">
+                                            <i class="header__search--select-icon fa-solid fa-chevron-down"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- 8 -->
+                            <div class="container__listleft">
+                                <h4 id="container__item-h">Giao hàng</h4>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Hàng Quốc Tế</span>
+                                    </div>
+                                </div>
+                                <div class="container__item-four" onclick="Thongbao()">
+                                    <span class="container__item-four-box">
+                                        <!-- <img class="icon-check-on" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/checked.svg" alt=""> -->
+                                        <img class="icon-check-off" src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/unchecked.svg" alt="">
+                                    </span>
+                                    <div class="container__item-four-list">
+                                        <span>Hàng Nội Địa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- sanpham -->
+                    <div class="grid__column-10">
+                        <!-- one -->
+                        <div class="sanpham__right-top">
+                            <div class="sanpham-h-two">
+                                <h1>Thiết Bị Số - Phụ Kiện Số</h1>
+                            </div>
+                            <div class="container__list-one" onclick="Thongbao()">
+                                <div class="grid__row">
+                                    <div class="grid__column-10-2">
+                                        <a href="#!" class="container__list-one-link">
+                                            <img src="https://salt.tikicdn.com/cache/w750/ts/banner/15/08/88/173a69a9e6aaacdc83b71927b46aceea.jpg.webp" alt="" width="100%" >
+                                        </a>
+                                    </div>
+                                    <div class="grid__column-10-2">
+                                        <a href="#!" class="container__list-one-link">
+                                            <img src="https://salt.tikicdn.com/cache/w750/ts/banner/03/58/06/37a4dd142c45e5f3eba9ec316a3816d8.jpg.webp" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sanpham__item-list">
+                                <div class="sanpham__item-top" onclick="Thongbao()">
+                                    <a href="#!" class="sanpham__item-top-link">Phổ Biến</a>
+                                    <a href="#!" class="sanpham__item-top-link">Bán Chạy</a>
+                                    <a href="#!" class="sanpham__item-top-link">Hàng Mới</a>
+                                    <a href="#!" class="sanpham__item-top-link">Giá Thấp Đến Cao</a>
+                                    <a href="#!" class="sanpham__item-top-link">Giá Cao Đến Thấp</a>
+                                </div>
+                            </div>
+                            <div class="sanpham__item-list-bootton" onclick="Thongbao()">
+                                <p class="sanpham__item-list-bootton-p"><img src="https://salt.tikicdn.com/ts/upload/b3/21/cf/c6525bcd44b3bb1b793277cc98487799.png" alt="" height="16" width="55"></p>
+                                <p class="sanpham__item-list-bootton-p"><img src="https://salt.tikicdn.com/ts/upload/e9/14/26/52318ad1543ad9d3ee5b633b3df0750d.png" alt="" height="16" width="78"></p>
+                                <p class="sanpham__item-list-bootton-p"><img src="https://salt.tikicdn.com/ts/upload/ec/86/62/a28152ea23fd7d723d968579f3970280.png" alt="" height="16" width="78"></p>
+                            </div>
+                        </div>
+                        <!-- two -->
+                        <div class="container__list-tow">
+                            <div class="grid__row">
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/0c/dd/e7/e6431984901119a1f8166cc4e579da93.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Apple iPhone 14 Pro Max</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    5
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                <!-- <i class="fa-thin fa-star"></i> -->
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 2650
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                15.990.000
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -6%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng tới 1000 ASA (350k <u>đ</u>)
+                                            <br>
+                                            ≈ 2.2% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                        <!-- <div class="sanpham__text-themgiohang">
+                                            <a href="#!">
+                                                <img src="./assets2/img/add-to-cart (2).png" alt="Thêm vào giỏ hàng" height="25px" width="25px" class="sanpham__text-themgiohang-img">
+                                                Mua hàng
+                                            </a>
+                                        </div> -->
+                                    </div>   
+                                </div>
+                                
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/22/a1/b0/6f8069c492c39b587eb4c3c80d3377d7.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Apple iPad Pro 12.9 - inch M1 Wi-Fi + Cellular 2021</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.8
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                33.490.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -2%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng tới 1000 ASA (365k <u>đ</u>)
+                                            <br>
+                                            ≈ 1.1% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <a href="./index3.html">
+                                        <div class="sanpham sanpham-three">
+                                            <!-- trên -->
+                                            <div class="sanpham__list">
+                                                <div class="sanpham__list-img" style="background-image: url('https://salt.tikicdn.com/cache/280x280/ts/product/33/40/e6/89c9a6e215d97f04b5ba582820cae542.png.webp')"></div>
+                                                <div class="sanpham__text-ASTRA">
+                                                    ASTRA+
+                                                </div>
+                                            </div>
+                                            <!-- dưới -->
+                                            <h3 class="sanpham__text-name">Giá Đỡ Máy Tính Laptop Macbook Hợp Kim Nhôm Cao Cấp - Hàng Chính Hãng Tamayoko</h3>
+                                            <div class="sanpham__text-danhgia">
+                                                    <span class="sanpham__text-danhgia-list">
+                                                        5
+                                                        <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                        <!-- <i class="fa-thin fa-star"></i> -->
+                                                        <!-- <i class="fa-solid fa-star"></i> -->
+                                                    </span>
+                                                    
+                                                    <div class="sanpham__text-danhgia-chu">
+                                                        Đã bán 91
+                                                    </div>
+                                            </div>
+                                            <!-- giá -->
+                                            <div class="sanpham__text-giaban">
+                                                <div class="sanpham__text-giaban-new">
+                                                    399.000 
+                                                    <sub><u>đ</u></sub>
+                                                </div>
+                                                <div class="sanpham__text-giaban-giamgia">
+                                                    -2%
+                                                </div>
+                                            </div>
+                                            <div class="sanpham__text-quatang">
+                                                Tặng tới 68 ASA (22k <u>đ</u>) 
+                                                <br>
+                                                ≈ 5.6% hoàn tiền
+                                            </div>
+                                            <div class="sanpham__text-uudai">
+                                                <div class="sanpham__text-uudai-item">
+                                                    <span>Freeship +</span>
+                                                </div>
+                                                <div class="sanpham__text-uudai-item">
+                                                    <span>Trả góp</span>
+                                                </div>
+                                            </div>
+                                            <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                            </div>
+                                            <!-- <div class="sanpham__text-UYTIN">
+                                                <i class="fa-solid fa-star"></i>
+                                                UY TÍN
+                                            </div> -->
+                                            <div class="sanpham__text-QC">
+                                                <i class="fa-solid fa-star"></i>
+                                                QC
+                                            </div>
+                                        </div>
+                                    </a>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/90/28/32/c5fa6cca880691dc754b9fcefe443eda.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">[Hàng Chính Hãng] Loa Bluetooth Marshall Acton II</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 50+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                6.999.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -12%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng tới 1 tai nghe Apple (1.150k <u>đ</u>)
+                                            <br>
+                                            ≈ 4.2% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/3a/e3/fb/991fc990fe8bc76d92d3d0cefd2230e1.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Apple MacBool Pro 2021 16 inch (Apple M1 PRO)</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    5
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                55.590.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -14%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 Apple Watch (4.150k <u>đ</u>)
+                                            <br>
+                                            ≈ 1.9% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div>
+                                        <!-- <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div> -->
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/media/catalog/producttmp/83/7b/e3/76c7446282ade0045d69bae32f89733d.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Apple Watch Series 7 GPS Sport Band (Viền Nhôm, Dây Cao Su)</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    5
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 653
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                9.440.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -27%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 tai nghe Apple (1.150k <u>đ</u>)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div>
+                                        <!-- <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div> -->
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/35/12/6a/dbf2949f381004065468c2b1b976c209.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Đàn Guitar Acoustic Rosen G11</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.7
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 300+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                1.560.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -15%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn hợp âm cơ bản (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/7a/1c/06/a11242632529e7765f6289efff2c0364.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Ghế Xoay Công Thái Học XIAOMI HBADA HDNY163, Điều Chỉnh Xương Sống, Phù Hợp Nhiều Tư Thế Ngồi, Bác Sĩ Khuyên Dùng - Hàng Chính Hãng</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                3.560.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -15%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn Naruto (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/17/86/18/45b6d4e8c16dc78adf156deddc7ef62f.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Bộ Đồ Veston Nam Phom Ôm Màu Đen, Xanh, Tím Than, Navy, Cổ Vịt Cao Cấp - Trần(1 Quần Và 1 Aó Vest)</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                1.960.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -5%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng tới 209 ASA (60k đ)
+                                            <br>
+                                            ≈ 3.9% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div>
+                                        <!-- <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div> -->
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/60/d4/01/8f3eeec4df73b62192960df412d96eaa.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Giày Converse Run Star Hike Twisted Classic Foundational 166800V</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                2.560.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 3 vớ (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/8e/13/26/cd377fb1f8908c5909c4b5c5fdfa1981.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Cốc Giữ Nhiệt Coffeeholic Inox 304 Dung Tích 510ml Cao Cấp Kiểu Dáng Hàn Quốc Cầm Tay Sang Trọng BNG07</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng tới 1 hộp cafe (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div>
+                                        <!-- <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div> -->
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/06/5c/94/d6bde2cd8c020b8f93a524675911b22c.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Áo hoodie nam nữ PEPPER samseyo, Áo hoodie form rộng phong cách Unisex, Áo khoác hoodie nam nữ Pepper Tutudesign, Áo sweater nỉ form rộng chất cực đẹp</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                360.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -15%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng tới 3 đôi vớ (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/17/10/53/ec916ae38034998a40ec62dfe3effa19.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Áo hoodie cặp đôi unisex nam nữ sweater local brand hàn quốc cute khoác zip choàng cardigan chống nắng HABDHLNE92</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 2 đôi vớ (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div>
+                                        <!-- <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div> -->
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+                                
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/46/69/0a/ddc49013f086670359f5299827ec6285.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Áo Khoác Hoodie Nỉ Bông BÀN CỜ màu TRẮNG/ĐEN Nam nữ unisex/Áo hoodie có mũ form rộng Jaystoree</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 2 đôi vớ (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/fd/39/da/bb14fd71a15b9f253b042e3fb230e390.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Combo 2 Cuốn Sách Kỹ Năng Thay Đổi Cuộc Đời Bạn: Đắc Nhân Tâm (Khổ Lớn) + Đời Ngắn Đừng Ngủ Dài (Tái Bản) / Top Những Cuốn Sách Kỹ Năng Sống Hay Nhất</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                160.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 2 quấn Conan (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+                                
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/d0/17/b6/eebfb0d12e13ec120448f84e669a4f11.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Clean Code – Mã Sạch Và Con Đường Trở Thành Lập Trình Viên Giỏi</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                160.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn Conan (50k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/b8/d1/74/a48e18f45e634aa317436d5f4b413669.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Hello các bạn Mình là Tôi code đi dạo - Phạm Huy Hoàng</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                135.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn truyện Conan (50k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/30/d9/28/f2d40b017b6654cd6f781e0953bdc50d.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Đàn Piano điện cao cấp/ Home Digital Piano - Nux WK-400 (WK400) - Màu đen (gỗ) - Hàng chính hãng</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                9.260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn sách hợp âm(150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/ab/fe/51/dd623c8f710c82e82c785d1c877b119a.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Xe Ô Tô Honda CR-V G</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                1.048.000.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -5%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng bộ rửa xe (1.150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/30/a4/f9/c39362cbf88b02ccc8fc1795e053fca6.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Xe Ô Tô Honda CR-V L</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                1.123.000.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng bộ rửa xe (1.150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/b0/51/9b/c9c2eb53681012b80b9ae5554c309f34.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Apple iPhone 14 Plus</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                24.660.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -5%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 dây sạc (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/e4/b1/a3/17c87d7352a5c06a301569802f1f0140.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Điện thoại Samsung Galaxy S22 Ultra 5G (8GB/128GB) - Hàng Chính Hãng</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                22.960.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -5%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 dây sạc (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/48/9e/18/0e509f33af853bc40119e8c4d79958a2.png)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Điện thoại Samsung Galaxy Z Flip 4 (8GB/256GB) - Hàng chính hãng</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                24.260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 dây sạc (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/media/catalog/product/tmp/6e/66/8d/6927934da95f5df607b1d4a79fb4d466.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Apple AirPods 3 Hộp sạc Magsafe - MME73</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                4.260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 dây sạc (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/20/48/db/519bf4ba1852b2ec32b91f8e248d9742.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Combo 7 Cuốn Tủ Sách Tinh Hoa : Nhà Giả Kim + Đắc Nhân Tâm + Đọc Vị Bất Kỳ Ai + Khéo Ăn Nói Sẽ Có Được Thiên Hạ + Cư Xử Như Đàn Bà Suy Nghĩ Như Đàn Ông + Tuổi Trẻ Đáng Giá Bao Nhiêu  + Quẳng Gánh Lo Đi Và Vui Sống / BooksetMK</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn truyện Conan (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/20/48/db/519bf4ba1852b2ec32b91f8e248d9742.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Combo 7 Cuốn Tủ Sách Tinh Hoa : Nhà Giả Kim + Đắc Nhân Tâm + Đọc Vị Bất Kỳ Ai + Khéo Ăn Nói Sẽ Có Được Thiên Hạ + Cư Xử Như Đàn Bà Suy Nghĩ Như Đàn Ông + Tuổi Trẻ Đáng Giá Bao Nhiêu  + Quẳng Gánh Lo Đi Và Vui Sống / BooksetMK</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn truyện Conan (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+
+                                <div class="grid__column-2-5">
+                                    <div class="sanpham" onclick="Thongbao()">
+                                        <!-- trên -->
+                                        <div class="sanpham__list">
+                                            <div class="sanpham__list-img" style="background-image: url(https://salt.tikicdn.com/cache/280x280/ts/product/20/48/db/519bf4ba1852b2ec32b91f8e248d9742.jpg)"></div>
+                                            <div class="sanpham__text-ASTRA">
+                                                ASTRA+
+                                            </div>
+                                        </div>
+                                        <!-- dưới -->
+                                        <h3 class="sanpham__text-name">Combo 7 Cuốn Tủ Sách Tinh Hoa : Nhà Giả Kim + Đắc Nhân Tâm + Đọc Vị Bất Kỳ Ai + Khéo Ăn Nói Sẽ Có Được Thiên Hạ + Cư Xử Như Đàn Bà Suy Nghĩ Như Đàn Ông + Tuổi Trẻ Đáng Giá Bao Nhiêu  + Quẳng Gánh Lo Đi Và Vui Sống / BooksetMK</h3>
+                                        <div class="sanpham__text-danhgia">
+                                                <span class="sanpham__text-danhgia-list">
+                                                    4.98
+                                                    <img src="./assets2/img/star.png" alt="" height="10px" width="10px">
+                                                    <!-- <i class="fa-thin fa-star"></i> -->
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                </span>
+                                                
+                                                <div class="sanpham__text-danhgia-chu">
+                                                    Đã bán 1000+
+                                                </div>
+                                        </div>
+                                        <!-- giá -->
+                                        <div class="sanpham__text-giaban">
+                                            <div class="sanpham__text-giaban-new">
+                                                260.000 
+                                                <sub><u>đ</u></sub>
+                                            </div>
+                                            <div class="sanpham__text-giaban-giamgia">
+                                                -35%
+                                            </div>
+                                        </div>
+                                        <div class="sanpham__text-quatang">
+                                            Tặng 1 quấn truyện Conan (150k đ)
+                                            <br>
+                                            ≈ 1.7% hoàn tiền
+                                        </div>
+                                        <div class="sanpham__text-uudai">
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Freeship +</span>
+                                            </div>
+                                            <div class="sanpham__text-uudai-item">
+                                                <span>Trả góp</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="sanpham__text-OFFICIAL">
+                                            <i class="fa-solid fa-check"></i>
+                                            OFFICIAL
+                                        </div> -->
+                                        <div class="sanpham__text-UYTIN">
+                                            <i class="fa-solid fa-star"></i>
+                                            UY TÍN
+                                        </div>
+                                        <div class="sanpham__text-QC">
+                                            <i class="fa-solid fa-star"></i>
+                                            QC
+                                        </div>
+                                    </div>   
+                                </div>
+                            </div>
+                            <!-- Xem Thêm -->
+                            <div class="home-filter-xemthem" onclick="Thongbao()">
+                                <a href="#!" class="home-filter-xemthem-link">Xem Thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- pooter -->
+        <pooter class="pooter">
+            <div class="pooter__background">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-12">
+                            <div class="grid__row">
+                                <div class="grid__column-2-5">
+                                    <div class="pooter__list">
+                                        <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                                            <p class="pooter__item-p" onclick="Thongbao()">Hotline: <a href="tel:0865476228" class="pooter__item-link">0865476228</a><br>(1000 đ/phút, 8-21h kể cả T7-CN</p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Các câu hỏi thường gặp</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Gửi yêu cầu hỗ trợ</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Hướng dẫn đặt hàng</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Phương thức vận chuyển</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Chính sách đổi trả</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Hướng dẫn trả góp</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Chính sách hàng nhập khẩu</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()">Hỗ trợ khách hàng: <a href="mailto:huubang16042002@gmail.com" class="pooter__item-link">huubang16042002@gmail.com</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()">Báo lỗi bảo mật: <a href="mailto:huubang16042002@gmail.com" class="pooter__item-link">huubang16042002@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <div class="pooter__list">
+                                        <h3>VỀ TIKI</h3>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Giới thiệu về Tiki</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Tuyển dụng</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Chính sách bảo mật tham toán</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Chính sách bảo mật thông tin cá nhân</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Chính sách giải quyết khiếu nại</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Điều khoản sử dụng</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Giới thiệu Tiki Xu</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Gói thành viên đặc quyền - Astra Rewards</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Tiếp thị liên kết cùng Tiki</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Bán hàng doanh nghiệp</a></p>
+                                            <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Điều kiện vận chuyển</a></p>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <div class="pooter__list">
+                                        <h3>HỢP TÁC VÀ PHÁT TRIỂN</h3>
+                                        <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Quy chế hoạt động Sàn GDTMDT</a></p>
+                                        <p class="pooter__item-p" onclick="Thongbao()"><a href="#!" class="pooter__item-link">Bán hàng cùng Tiki</a></p>
+                                        <h4>CHỨNG NHẬN BỞI</h4>
+                                        <div class="pooter__item-img">
+                                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong-2.png" alt="ảnh chứng nhận" width="32" height="32">
+                                            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong.svg" alt="ảnh chúng nhận" height="32" width="83">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <div class="pooter__list">
+                                        <h3>PHƯƠNG THỨC THANH TOÁN</h3>
+                                        <div class="pooter__item-img">
+                                            <a href="#!" class="pooter__item-img-link" onclick="Thongbao()"><img src="./assets2/img/momo.png" alt="" height="25px" width="25px"></a>
+                                            <a href="#!" class="pooter__item-img-link" onclick="Thongbao()"><img src="https://cdn.visa.com/v2/assets/images/logos/visa/blue/logo.png" alt="Visa Home" height="20px" width="25px"></a>
+                                            <a href="#!" class="pooter__item-img-link" onclick="Thongbao()"><img src="./assets2/img/jbg.png" class="logo hide-small" alt="JCB" width="25" height="20"></a>
+                                            <a href="#!" class="pooter__item-img-link" onclick="Thongbao()"><img src="./assets2/img/atm.png" alt="" height="25px" width="25px"></a>
+                                        </div>
+                                        <h4>DỊCH VỤ GIAO HÀNG</h4>
+                                        <a href="#!"><img src="https://static.wixstatic.com/media/6e68b4_245b828eb23a404b9aba586a8fb0292c~mv2.png/v1/crop/x_39,y_33,w_200,h_99/fill/w_138,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/images.png" alt="" height="35px" width="70px"></a>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-5">
+                                    <div class="pooter__list">
+                                        <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                                        <div class="pooter__item-img">
+                                            <a href="https://www.facebook.com/tiki.vn" class="pooter__item-img-link"><img src="./assets2/img/facebook.png" alt="Logo FB" height="25px" width="25px"></a>
+                                            <a href="https://www.youtube.com/user/TikiVBlog" class="pooter__item-img-link"><img src="./assets2/img/youtube.png" alt="Logo Youtube"height="25px" width="25px"></a>
+                                            <a href="https://zalo.me/589673439383195103" class="pooter__item-img-link"><img src="https://page.widget.zalo.me/static/images/2.0/Logo.svg" alt="Logo Zalo"height="25px" width="25px"></a>
+                                        </div>
+                                        <h4>TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</h4>
+                                        <div class="pooter__item-link-download">
+                                            <img src="./assets2/img/qrcode.png" alt="" height="82px" width="82px">
+                                            <div class="pooter__item-link-download-space">
+                                                <a href="https://apps.apple.com/vn/app/id958100553">
+                                                <img src="./assets2/img/appstore.png" alt="" height="39px" width="123px">
+                                                </a>
+                                                <a href="https://play.google.com/store/apps/details?id=vn.tiki.app.tikiandroid&pli=1">
+                                                    <img src="./assets2/img/playstore.png" alt="" height="39px" width="123px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pooter__end">
+                <p>© 2022 - Bản quyền thuộc về Công ty NHB</p>
+            </div>
+        </pooter>
+    </div>
+    <script src="trangphu.js"></script>
+</body>
+</html>
